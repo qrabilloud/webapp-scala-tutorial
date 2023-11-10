@@ -1,1 +1,2 @@
-webapp-scala-tutorial
+# Workshop Webapp in Scala
+
