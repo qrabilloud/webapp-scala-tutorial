@@ -8,7 +8,9 @@ libraryDependencies ++= Seq(
     "org.tpolecat" %% "doobie-hikari" % "1.0.0-RC4",
     "org.tpolecat" %% "doobie-h2"        % "1.0.0-RC4",         // H2 driver 1.4.200 + type mappings.
     "com.h2database" % "h2" % "2.1.214",
-    "org.typelevel" %% "cats-effect" % "3.5.2"
+    "org.typelevel" %% "cats-effect" % "3.5.2",
+    "eu.monniot" %% "scala3mock" % "0.4.0" % "test",
+    "eu.monniot" %% "scala3mock-scalatest" % "0.4.0" % "test"
 )
 
 
